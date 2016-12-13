@@ -15,7 +15,7 @@ a{
 
 .iconfont {
     font-family:"iconfont" !important;
-    font-size:16px;
+    font-size:0.16rem;
     font-style:normal;
 }
 
@@ -52,6 +52,9 @@ a{
 /*导航*/
 #navs{
     width:100%;
+    height:1.87rem;
+    position:fixed;
+    top:0;
 }
 #navs .list-biaot{
     width:100%;
@@ -59,12 +62,32 @@ a{
     display:flex;
     justify-content:space-around;
     align-items:center;
-}
-#navs.list-biaot span{
-    font-size:0.4rem;
+    background:#070707;
+    z-index:666;
     color:#fff;
+}
+#navs .list-biaot .leftback{
+    width:0.5rem;
+    height:0.5rem;
     display:block;
-    font-weight:bolder;
+    background:#ec0086;
+    border-radius:50%;
+    margin-left:-0.65rem;
+    text-align:center;
+    line-height:0.5rem;
+    font-size:0.3rem;
+}
+#navs .list-biaot .rightback{
+    width:0.5rem;
+    height:0.5rem;
+    display:block;
+    background:#ec0086;
+    z-index:999;
+    border-radius:50%;
+    margin-right:-0.65rem;
+    text-align:center;
+    line-height:0.5rem;
+    font-size:0.3rem;
 }
 #navs .list-biaot .mine{
     font-size:0.35rem;
@@ -78,6 +101,7 @@ a{
     display:flex;
     justify-content:space-around;
     align-items:center;
+    z-index:666;
 }
 #navs .navbox span{
     font-size:0.36rem;
@@ -92,6 +116,7 @@ a{
 .list #index{
     width:100%;
     display:block;
+    margin-top:1.87rem;
 }
 
 .listpicture{
@@ -203,15 +228,16 @@ a{
 }
 .zhoujlbox{
     width:100%;height:1.4rem;
+    position:fixed;
+    bottom:0;
+    background:#070707;
 }
 .color{
-    width:100%;
-    height:0.2rem;
-    background:#1b2026;
+    height:0.1rem;
 }
 .zuoyoubox{
     width:100%;
-    height:1.17rem;
+    height:1.37rem;
     display:flex;
     justify-content:space-around;
     align-items:center;
@@ -270,6 +296,7 @@ a{
 .list #fenlei{
     display:none;
     width:100%;
+    margin-top:1.87rem;
 }
 .fenleibigtu{
     width:100%;
@@ -329,6 +356,7 @@ a{
 .list #mv{
     display:none;
     width:100%;
+    margin-top:1.87rem;
 }
 .mvbox{
     width:100%;
@@ -404,6 +432,7 @@ a{
 .list #mine{
     display:none;
     width:100%;
+    margin-top:1.87rem;
 }
 .minedzqbox{
     width:100%;height:4.27rem;
@@ -432,7 +461,7 @@ a{
 }
 .minesongerbox{
     width:100%;
-    height:5.65rem;
+    height:5.75rem;
     background:#1b1b1b;
 }
 .xiazaibox{

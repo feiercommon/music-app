@@ -1,0 +1,248 @@
+body,html{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration:none;
+    color:#ccc;
+}
+img{
+    border:0;
+}
+.swiper-container {
+    width:100%;
+    height:100%;
+}
+/*一屏*/
+.swiper-slide:nth-child(1){
+    width:100%;height:100%;
+    background:#0e235c;
+    text-align:center;
+}
+.sptop1{
+    width:2.75rem;
+    height:2.02rem;
+    background:url(../img/sp12.png) no-repeat;
+    background-size:100% 100%;
+    margin:1.8rem auto 0.24rem;
+    opacity:1;
+}
+.swiper-slide-active .sptop1{
+    animation:sptop1 3s ease;
+}
+@keyframes sptop1{
+    0%{
+        opacity:0;
+        transform:translateY(-4.02rem);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.spcenter1{
+    width:4.45rem;
+    height:5.71rem;
+    background:url(../img/sp11.png) no-repeat;
+    background-size:100% 100%;
+    margin:0 auto;
+    opacity:1;
+}
+.swiper-slide-active .spcenter1{
+    animation:sptop2 1.5s ease;
+}
+@keyframes sptop2{
+    0%{
+        transform:rotateY(0deg);
+    }
+    100%{
+        transform:rotateY(360deg);
+    }
+}
+.spbottomtop1{
+    display:block;
+    font-size:0.55rem;
+    color:#fff;
+    margin-top:0.38rem;
+    transform-origin:center;
+    transform:rotate(-10deg);
+}
+.swiper-slide-active .spbottomtop1{
+    animation:spbottomtop1 2s ease;
+}
+@keyframes spbottomtop1{
+    0%{
+        margin-left:-2rem;
+    }
+    100%{
+        margin-left:0;
+    }
+}
+.spbottombottom1{
+    display:block;
+    font-size:0.55rem;
+    color:#fff;
+    margin-top:0.38rem;
+}
+.swiper-slide-active .spbottombottom1{
+    animation:spbottombottom1 2s ease;
+}
+@keyframes spbottombottom1{
+    0%{
+        margin-left:4rem;
+    }
+    100%{
+        margin-right:0;
+    }
+}
+.spbottombottom1 span{
+    font-size:0.7rem;
+    color:#e94b96;
+}
+
+
+/*二屏*/
+.swiper-slide:nth-child(2){
+    width:100%;height:100%;
+    background:url(../img/spb.png)no-repeat;
+    background-size:100% 100%;
+    text-align:center;
+}
+.sptop2{
+    width:6.79rem;
+    height:7.89rem;
+    background:url(../img/sp21.png) no-repeat;
+    background-size:100% 100%;
+    margin:1.2rem auto 0.85rem;
+}
+.swiper-slide-active .sptop2{
+    animation:sptop2 2s ease;
+}
+@keyframes sptop2{
+    0%{
+        opacity:0;
+        transform:translateY(-4.02rem);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.spbottomtop2{
+    display:block;
+    font-size:0.55rem;
+    color:#fff;
+}
+.swiper-slide-active .spbottomtop2{
+    animation:spbottomtop2 2.5s ease;
+}
+@keyframes spbottomtop2{
+    0%{
+        transform-origin:center;
+        transform:rotate3d(0,0,0,0deg);
+    }
+    50%{
+        transform-origin:center;
+        transform:rotate3d(1,1,0,100deg);
+    }
+    100%{
+        transform-origin:center;
+        transform:rotate3d(0,0,0,0deg);
+    }
+}
+.spbottombottom2{
+    display:block;
+    font-size:0.55rem;
+    color:#fff;
+    margin-top:0.38rem;
+}
+.swiper-slide-active .spbottombottom2{
+    animation:spbottombottom2 2.5s ease;
+}
+@keyframes spbottombottom2{
+    0%{
+        transform-origin:center;
+        transform:rotate3d(0,0,0,0deg);
+    }
+    50%{
+        transform-origin:center;
+        transform:rotate3d(1,1,0,100deg);
+    }
+    100%{
+        transform-origin:center;
+        transform:rotate3d(0,0,0,0deg);
+    }
+}
+.spbottombottom2 span{
+    font-size:0.67rem;
+    color:#eded4d;
+}
+/*三屏*/
+.swiper-slide:nth-child(3){
+    width:100%;height:100%;
+    background:url(../img/spb3.png)no-repeat;
+    background-size:100% 100%;
+    text-align:center;
+}
+.sptop3{
+    width:6.18rem;
+    height:3.66rem;
+    display:block;
+    background:url(../img/sp1.png) no-repeat;
+    background-size:100% 100%;
+    margin:1.23rem auto 0;
+    line-height:0.7rem;
+    border:0.01rem solid transparent;
+}
+.swiper-slide-active .sptop3{
+    animation:sptop3 2.5s ease;
+}
+@keyframes sptop3{
+    0%{
+        transform-origin:center;
+        transform:rotate3d(0,0,0,0deg);
+    }
+    50%{
+        transform-origin:center;
+        transform:rotate3d(1,1,0,100deg);
+    }
+    100%{
+        transform-origin:center;
+        transform:rotate3d(0,0,0,0deg);
+    }
+}
+.sptop3 span{
+    display:block;
+    text-align:center;
+    font-size:0.46rem;
+    color:#fff;
+
+}
+.sptop3 .spans{
+    margin-top:0.8rem;
+}
+.spcenter3{
+    width:6.22rem;
+    height:6.42rem;
+    background:url(../img/sp3.png) no-repeat;
+    background-size:100% 100%;
+    margin:0 auto;
+}
+.swiper-slide-active .spcenter3{
+    animation:spcenter3 2.5s ease;
+}
+@keyframes spcenter3{
+    0%{
+        opacity:0;
+        transform:translateX(-1rem);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0rem);
+    }
+}
+
+
+
