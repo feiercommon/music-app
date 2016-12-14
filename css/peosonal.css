@@ -1,0 +1,278 @@
+*{
+    padding:0;margin:0;
+    list-style:none;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+    color:#ccc;
+}
+img{
+    border:0;
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url(../font/iconfont.woff);
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+}
+
+.icon-maikefeng:before { content: "\e605"; }
+
+.icon-key:before { content: "\e66e"; }
+
+.icon-search:before { content: "\e674"; }
+
+.icon-15:before { content: "\e60f"; }
+
+.icon-ttpodicon:before { content: "\e6a6"; }
+
+.icon-mulu:before { content: "\e602"; }
+
+.icon-guanyuwomen:before { content: "\e603"; }
+
+.icon-xiayiye:before { content: "\e621"; }
+
+.icon-zuanshi:before { content: "\e613"; }
+
+.icon-naozhong:before { content: "\e610"; }
+
+.icon-tianjia:before { content: "\e61d"; }
+
+.icon-shoucang:before { content: "\e619"; }
+
+.icon-lajixiang:before { content: "\e61e"; }
+
+.icon-jiantouzuo:before { content: "\e659"; }
+
+.icon-pingjia:before { content: "\e609"; }
+
+.icon-2:before { content: "\e767"; }
+
+.icon-icon:before { content: "\e606"; }
+
+.icon-iconfontbiaozhunmoban01:before { content: "\e612"; }
+
+.icon-icondianzan:before { content: "\e645"; }
+
+.icon-3d:before { content: "\e604"; }
+
+.icon-zanting:before { content: "\e712"; }
+
+.icon-icon13:before { content: "\e617"; }
+
+.icon-next:before { content: "\e600"; }
+
+.icon-prev:before { content: "\e601"; }
+
+.icon-yonghuming2:before { content: "\e893"; }
+
+.icon-wrong_f:before { content: "\e64d"; }
+
+html,body{
+    width:100%;height:100%;
+}
+#geren{
+    width:100%;height:100%;
+    background: #070707;
+}
+.personal{
+    width:100%;height:100%;
+    background:url(../img/geb.png) no-repeat;
+    background-size:100% 100%;
+    display:none;
+}
+.personalleft{
+    width:6.32rem;
+    height:100%;
+    float:left;
+}
+.personalright{
+    width:1.18rem;
+    height:100%;
+    background:url(../img/ge2.png) no-repeat;
+    background-size:100% 100%;
+    float:left;
+}
+.personal-tu{
+    width:2.3rem;
+    height:2.3rem;
+    background:url(../img/ge1.png) no-repeat;
+    background-size:100% 100%;
+    margin-top:0.75rem;
+    margin-left:0.48rem;
+    margin-bottom:0.24rem;
+}
+.work-tubox{
+    width:2.67rem;
+    height:auto;
+}
+.work-tu{
+    width:100%;
+    height:0.93rem;
+    margin-left:0.8rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.work-tu span:nth-child(1){
+    font-size:0.32rem;
+    color:#fff;
+}
+.work-tu .tubiao{
+    color:#ec0086;
+    font-size:0.32rem;
+}
+.clickbox{
+    width:4.56rem;
+    height:0.7rem;
+    margin-top:0.5rem;
+    margin-left:1rem;
+    display:flex;
+    justify-content:space-between;
+}
+.shezhi{
+    width:1.22rem;
+    height:100%;
+    border:1px solid #b40a6b;
+    line-height:0.7rem;
+    text-align:center;
+}
+.shezhi span:nth-child(1){
+    font-size:0.37rem;
+    color:#fff;
+    display:block;
+}
+
+/*搜索*/
+.search{
+    width:100%;height:100%;
+    border:0.01rem solid transparent;
+}
+.search-topbox{
+    width:100%;height:0.66rem;
+    /*background:red;*/
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:0.76rem;
+}
+.searchleft span{
+    font-size:0.3rem;
+    color:#ec0086;
+    display:block;
+}
+.searchright{
+    width:6.46rem;
+    height:100%;
+    background:#171717;
+    border-radius:0.1rem;
+    border:none;
+    outline:none;
+    color:#ccc;
+    position:relative;
+}
+.search-bigbox{
+    width:100%;height:auto;
+}
+.baikefeng{
+    font-size:0.35rem;
+    color:#ec0086;
+    display:block;
+    position:absolute;
+    right:0.5rem;
+}
+.hotsearch{
+    font-size:0.3rem;
+    color:#fff;
+    display:block;
+    margin:0.26rem 0 0.3rem 0.5rem;
+}
+.namebox{
+    width:100%;
+    height:0.5rem;
+    display: flex;
+    justify-content: space-around;
+    text-align:center;
+    line-height:0.5rem;
+    margin-bottom:0.52rem;
+}
+.voice{
+    width:1.86rem;
+    border:1px solid #ec0086;
+    border-radius:0.3rem;
+    margin-left:0.5rem;
+}
+.searchzjl{
+    width:1.4rem;
+    border:1px solid #fff;
+    border-radius:0.3rem;
+}
+.searchzhm{
+    width:1.4rem;
+    border:1px solid #fff;
+    border-radius:0.3rem;
+}
+.searchlm{
+    width:0.98rem;
+    border:1px solid #fff;
+    border-radius:0.3rem;
+    margin-right:0.5rem;
+}
+.namebox span{
+    font-size:0.25rem;
+    color:#fff;
+    display:block;
+}
+.singernamebox{
+    width:100%;
+    height:0.84rem;
+    border-top:0.01rem solid #353333;
+}
+.stitlebox{
+    width:6.55rem;
+    height:100%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.stitleboxleft{
+    width:1.3rem;
+    height:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:0.3rem;
+    color:#fff;
+}
+.stitleboxleft .stubiao{
+    color:#ec0086;
+    display:block;
+}
+.stitleboxleft .szhm{
+    color:#fff;
+}
+.stitlebox span{
+    font-size:0.3rem;
+    color:#ec0086;
+    display:block;
+}
+.delete{
+    width:100%;
+    height:0.84rem;
+    border-top:0.01rem solid #353333;
+    border-bottom:0.01rem solid #353333;
+}
+.delete span{
+    font-size:0.3rem;
+    color:#ec0086;
+    display:block;
+    text-align:center;
+    line-height:0.84rem;
+}
