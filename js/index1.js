@@ -52,4 +52,17 @@ $(function(){
         $(".list .menu").css("display","none");
         $("#mine").css("display","block");
     });
+
+    var zjl=$(".zuoyoubox .listleft");
+    zjl.click(function () {
+        $(".videopage1").css({"transform":"rotate(-90deg)","transform-origin":"0 100%","transition":"transform 0.5s ease"});
+    })
+
+    var jiantou=$(".videocircle1:nth-child(1)");
+    jiantou.click(function () {
+        $(".videopage1").css({"transform":"rotate(90deg)","transform-origin":"0 100%","transition":"transform 0.2s ease"});
+    })
+
+
+
 });
