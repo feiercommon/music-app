@@ -83,6 +83,7 @@ img{
 html,body{
     width:100%;
     height:100%;
+    overflow:auto;
 }
 #videopage{
     width:100%;
@@ -167,17 +168,6 @@ html,body{
     height:1px;
     background:#ccc;
 }
-.swiperbox{
-    width:85%;
-    height:0.91rem;
-    border-bottom:0.01rem solid #ccc;
-    margin-left:15%;
-    display:flex;
-    justify-content:space-between;
-}
-.swiper-left{
-
-}
 .videocentertu1{
     width:4.35rem;
     height:4.36rem;
@@ -200,10 +190,36 @@ html,body{
 }
 .videoline1{
     width:6.31rem;
-    height:0.19rem;
-    background:url(../img/line.png) no-repeat;
-    background-size:100% 100%;
+    height:0.06rem;
     margin:0.2rem auto 0;
+    background:#ccc;
+    border-radius:0.06rem;
+    position:relative;
+}
+.yinshen{
+    position:absolute;
+    height:0.06rem;
+    left:0;
+    top:0;
+    background:deeppink;
+    border-radius:0.06rem;
+}
+.videocircles{
+    width:0.2rem;
+    height:0.2rem;
+    border-radius:50%;
+    position:absolute;
+    left:-0.06rem;
+    top:-0.06rem;
+    background:blue;
+}
+.mf-iconbox .play{
+    font-size:0.5rem;
+}
+.mf-iconbox .icon-kaishi{
+    font-size:0.5rem;
+    display:block;
+    margin-top:-0.1rem;
 }
 .gecibox{
     width:100%;
@@ -273,3 +289,4 @@ html,body{
 .geciboxs .pinkhot{
     color:#ec0086;
 }
+/*三屏*/
