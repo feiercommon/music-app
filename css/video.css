@@ -94,7 +94,6 @@ html,body{
     z-index:999;
     transform-origin:0 100%;
     transform:rotate(90deg);
-
 }
 .videopage1{
     width:100%;
@@ -116,7 +115,6 @@ html,body{
 }
 .circle1{
     margin-left:-0.9rem;
-
 }
 .circle2{
     margin-right:-0.9rem;
@@ -174,6 +172,24 @@ html,body{
     background:url(../img/bf1.png) no-repeat;
     background-size:100% 100%;
     margin:1.96rem auto 0;
+    animation: donghua 10s linear infinite;
+}
+@keyframes donghua{
+    0%{
+        transform:rotate(0deg);
+    }
+    25%{
+        transform:rotate(90deg);
+    }
+    50%{
+        transform:rotate(180deg);
+    }
+    75%{
+        transform:rotate(270deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
 }
 .timebox{
     width:6.31rem;
@@ -245,6 +261,7 @@ html,body{
     display:flex;
     justify-content:space-around;
     align-items:center;
+
 }
 .videobottom1 span{
     color:#fff;

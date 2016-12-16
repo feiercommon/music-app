@@ -294,8 +294,19 @@ body,html{
     height:1.17rem;
     background:url(../img/tj8.png) no-repeat;
     background-size:100% 100%;
-    /*margin-top:-0.2rem;*/
+    animation: donghua 10s linear infinite;
 }
+/*@keyframes donghua{*/
+    /*0%{*/
+        /*transform:rotate(0deg);*/
+    /*}*/
+    /*50%{*/
+        /*transform:rotate(180deg);*/
+    /*}*/
+    /*100%{*/
+        /*transform:rotate(360deg);*/
+    /*}*/
+/*}*/
 .listright{
      width:5.18rem;
      height:0.86rem;
@@ -578,4 +589,21 @@ body,html{
     font-size:0.5rem;
     display:block;
     margin-top:-0.1rem;
+}
+
+/*播放列表*/
+.playlist{
+    width: 6rem;
+    height: 8.74rem;
+    background: red;
+    position: absolute;
+    top: 3.5rem;
+    left: -1.19rem;
+    z-index: 9999;
+    transform-origin: 0 100%;
+    transform: rotate(-90deg);
+    opacity:0;
+}
+.playlist.active{
+    opacity:1;
 }

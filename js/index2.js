@@ -120,4 +120,16 @@ $(function () {
         });
     });
 
+
+    /*播放列表*/
+    var menus=$('.videobottom1 .menus')[0];
+    var playlist=$(".playlist")[0];
+    var circle1=$('.circle1 ')[0];
+    menus.onclick=function () {
+        $(playlist).toggleClass("active");
+    };
+    circle1.onclick=function () {
+        $(playlist).removeClass("active");
+    };
 });
+
