@@ -213,10 +213,10 @@ html,body{
     top:-0.06rem;
     background:blue;
 }
-.mf-iconbox .play{
+.videobottom1 .play{
     font-size:0.5rem;
 }
-.mf-iconbox .icon-kaishi{
+.videobottom1 .icon-kaishi{
     font-size:0.5rem;
     display:block;
     margin-top:-0.1rem;
@@ -236,7 +236,7 @@ html,body{
 .gecibox span:nth-child(2){
     margin-top:0.3rem;
 }
-.videobottom1{
+.videopage1 .videobottom1{
     position:absolute;
     bottom:0;
     width:100%;
