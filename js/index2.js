@@ -91,6 +91,7 @@ $(function () {
 //进度条
     audio.ontimeupdate=function () {
         Nowtime.text(getTime(audio.currentTime));
+        timeBar.css({width:timeRegulate.width()*(audio.currentTime/audio.duration)});
         timeOp.css({left:timeRegulate.width()*(audio.currentTime/audio.duration)});
         timeOp.on('click',false);
     };
