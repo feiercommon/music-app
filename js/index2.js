@@ -131,5 +131,23 @@ $(function () {
     circle1.onclick=function () {
         $(playlist).removeClass("active");
     };
+
+
+    /*个人页面*/
+    var leftback=$(".leftback");
+    var geren=$("#geren");
+    var list=$(".list");
+    // var list=$(".personalright");
+    leftback.on("click",function (e) {
+        e.stopPropagation();
+//        e.preventDefault();
+//        return false;
+        geren.addClass("active");
+        list.addClass("active");
+    });
+    list.on("click",function () {
+        geren.removeClass("active");
+        list.removeClass("active");
+    })
 });
 

@@ -172,9 +172,9 @@ html,body{
     background:url(../img/bf1.png) no-repeat;
     background-size:100% 100%;
     margin:1.96rem auto 0;
-    animation: donghua 10s linear infinite;
+    animation: donghua5 10s linear infinite;
 }
-@keyframes donghua{
+@keyframes donghua5{
     0%{
         transform:rotate(0deg);
     }

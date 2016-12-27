@@ -76,36 +76,38 @@ img{
 
 html,body{
     width:100%;height:100%;
+    background:url(../img/listbg.png) no-repeat;
+    background-size:100% 100%;
 }
 #geren{
-    width:100%;height:100%;
+    width:93%;height:100%;
     background: #070707;
 }
 .personal{
     width:100%;height:100%;
-    background:url(../img/geb.png) no-repeat;
+    background:url(../img/listbg1.png) no-repeat;
     background-size:100% 100%;
-    display:none;
+    display:block;
 }
 .personalleft{
     width:6.32rem;
     height:100%;
     float:left;
 }
-.personalright{
-    width:1.18rem;
-    height:100%;
-    background:url(../img/ge2.png) no-repeat;
-    background-size:100% 100%;
-    float:left;
-}
+/*.personalright{*/
+    /*width:1.18rem;*/
+    /*height:100%;*/
+    /*background:url(../img/ge2.png) no-repeat;*/
+    /*background-size:100% 100%;*/
+    /*float:left;*/
+/*}*/
 .personal-tu{
     width:2.3rem;
     height:2.3rem;
     background:url(../img/ge1.png) no-repeat;
     background-size:100% 100%;
     margin-top:0.75rem;
-    margin-left:0.48rem;
+    margin-left:1.48rem;
     margin-bottom:0.24rem;
 }
 .work-tubox{
@@ -115,7 +117,7 @@ html,body{
 .work-tu{
     width:100%;
     height:0.93rem;
-    margin-left:0.8rem;
+    margin-left:1.8rem;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -129,10 +131,10 @@ html,body{
     font-size:0.32rem;
 }
 .clickbox{
-    width:4.56rem;
+    width:3.56rem;
     height:0.7rem;
     margin-top:0.5rem;
-    margin-left:1rem;
+    margin-left:2rem;
     display:flex;
     justify-content:space-between;
 }
